@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "frontend", "frontend\frontend.esproj", "{730EAF02-10A2-41F2-80BE-0AAEF41BCF6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiService", "webapi\ApiService.csproj", "{177851A3-01D5-46E7-B460-EA568D5AAF14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{730EAF02-10A2-41F2-80BE-0AAEF41BCF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730EAF02-10A2-41F2-80BE-0AAEF41BCF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730EAF02-10A2-41F2-80BE-0AAEF41BCF6D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{730EAF02-10A2-41F2-80BE-0AAEF41BCF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730EAF02-10A2-41F2-80BE-0AAEF41BCF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730EAF02-10A2-41F2-80BE-0AAEF41BCF6D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{177851A3-01D5-46E7-B460-EA568D5AAF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177851A3-01D5-46E7-B460-EA568D5AAF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177851A3-01D5-46E7-B460-EA568D5AAF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177851A3-01D5-46E7-B460-EA568D5AAF14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F452DC17-5C00-4493-924C-177B95CE0818}
+	EndGlobalSection
+EndGlobal
